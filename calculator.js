@@ -52,17 +52,17 @@ function add(x, y) {
 }
 
 function subtract(x, y) {
-	console.log(x - y);
+	$('#console').val(x - y);
 	calculation = [];
 }
 
 function multiply(x, y) {
-	console.log(x * y);
+	$('#console').val(x * y);
 	calculation = [];
 }
 
 function divide(x, y) { 
-	console.log(x / y);
+	$('#console').val(x / y);
 	calculation = [];
 }
 
